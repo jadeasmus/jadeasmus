@@ -54,7 +54,10 @@ export default function Home() {
       <div className="flex justify-center mt-9 pb-12 sm:pb-16 m-3 sm:m-5">
         <div className="space-y-10">
           <h1 className="mx-auto font-inder font-extrabold text-8xl text-white">
-            Hey, it&prime;s Jade
+            Hey, it&prime;s{" "}
+            <span className="underline decoration-wavy decoration-2 md:decoration-[3px] decoration-orange">
+              Jade
+            </span>
           </h1>
           <p className="font-inder font-extrabold text-3xl text-white ">
             Enabling passionate writers to make nuanced and collaborative
