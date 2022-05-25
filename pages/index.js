@@ -45,7 +45,7 @@ export default function Home() {
         <div className="flex-1" />
         {/* nav */}
         <Link href="/">
-          <span className="text-2xl text-white border-2 border-orange px-2 py-[0.2rem] rounded-xl cursor-pointer">
+          <span className="text-2xl text-white border-2 border-orange px-2 py-[0.2rem] rounded-xl hover:bg-orange hover:text-white cursor-pointer">
             Writing
           </span>
         </Link>
