@@ -93,23 +93,16 @@ export default function Home() {
               </svg>
             </a>
           </div>
-          <p className="text-lg">
-            I&prime;m currently working on{" "}
-            <a
-              href={"https://walkerparadise.vercel.app/"}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <span className="text-orange cursor-pointer hover:border-1 hover:border-b hover:border-orange">
-                walkers paradise
-              </span>
-            </a>
-            , where we route a safe walking path to your destination in San
-            Francisco using SFPD data and Google Maps API. This is a constantly
-            changing project as I iterate with new ideas. If you&prime;re
-            interested in following the journey, check out my #buildingInPublic{" "}
+          <p className="text-xl text-orange font-black pt-4">
+            Google Maps For Women In SF
+          </p>
+          <p className="text-md text-gray-600">
+            I&prime;m currently working on Walkers Paradise, where we route a
+            safe walking path to your destination in San Francisco using SFPD
+            data and Google Maps API. If you&prime;re interested in following
+            the journey, check out my #buildingInPublic{" "}
             <Link href={"/"}>
-              <span className="text-orange cursor-pointer hover:border-1 hover:border-b hover:border-orange">
+              <span className="text-gray-400 cursor-pointer hover:text-gray-700 hover:border-1 hover:border-b hover:border-orange">
                 thread
               </span>
             </Link>{" "}
@@ -146,7 +139,7 @@ export default function Home() {
                 </svg>
               </a>
             </div>
-            <p className="text-lg">
+            <p className="text-md text-gray-600">
               Blogging site that anyone can create an account in and start
               posting their thoughts! I currently use this to publish my own
               essays.
@@ -176,7 +169,7 @@ export default function Home() {
                 </svg>
               </a>
             </div>
-            <p className="text-lg">
+            <p className="text-md text-gray-600">
               Pomodoro study timer made with Next.js and Tailwindcss.
             </p>
           </div>
@@ -204,7 +197,7 @@ export default function Home() {
                 </svg>
               </a>
             </div>
-            <p className="text-lg">
+            <p className="text-md text-gray-600">
               Web scraper that finds local therapists made with Flask and
               BeautifulSoup.
             </p>
