@@ -44,11 +44,11 @@ export default function Home() {
         </Link>
         <div className="flex-1" />
         {/* nav */}
-        <Link href="/">
+        {/* <Link href="/">
           <span className="text-2xl text-white border-2 border-orange px-2 py-[0.2rem] rounded-xl hover:bg-orange hover:text-white cursor-pointer">
             My Writing
           </span>
-        </Link>
+        </Link> */}
       </div>
       {/* hero */}
       <div className="flex justify-center mt-9 pb-12 sm:pb-16 m-3 sm:m-5">
@@ -75,7 +75,7 @@ export default function Home() {
               WALKERS PARADISE
             </h1>
             <a
-              href="https://walkerparadise.vercel.app/"
+              href="https://walkersparadise.app"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -99,14 +99,11 @@ export default function Home() {
           <p className="text-md text-gray-600">
             I&prime;m currently working on Walkers Paradise, where we route a
             safe walking path to your destination in San Francisco using SFPD
-            data and Google Maps API. If you&prime;re interested in following
-            the journey, check out my #buildingInPublic{" "}
-            <Link href={"/"}>
-              <span className="text-gray-400 cursor-pointer hover:text-gray-700 hover:border-1 hover:border-b hover:border-orange">
-                thread
-              </span>
-            </Link>{" "}
-            on twitter!
+            data and Google Maps API. Check out the landing page{" "}
+            <Link target="_blank" href="https://walkersparadise.app">
+              <span className="text-gray-400 hover:text-gray-600">here</span>
+            </Link>
+            .
           </p>
         </div>
       </div>
@@ -121,7 +118,7 @@ export default function Home() {
             <div className="flex items-center space-x-2 pb-1">
               <h1 className="text-lg font-semibold">Essay</h1>
               <a
-                href="https://www.essay.community/"
+                href="https://github.com/jadeasmus/essay"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -141,8 +138,7 @@ export default function Home() {
             </div>
             <p className="text-md text-gray-600">
               Blogging site that anyone can create an account in and start
-              posting their thoughts! I currently use this to publish my own
-              essays.
+              posting their thoughts!
             </p>
           </div>
 
